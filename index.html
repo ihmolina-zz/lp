@@ -8,10 +8,10 @@
     <script>menu-circular.js</script>
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--font google-->
+    <!--font google
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'><link rel="stylesheet" href="./menu-circular.css">
-    
+    -->
     <title>LP Asociados</title>
 </head>
 
@@ -20,12 +20,12 @@
   
     <div class="container-fluid">
         
-        <!--Meu-->
+        <!--Meu principal-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-          <div class="container">
+          <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                  <img src="images/logo_lp.png" alt="">
-                </a>
+              <img src="images/logo_lp.png" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -37,10 +37,10 @@
                       </a>
                 </li> -->
                 <li class="nav-item">
-                  <a class="nav-link" href="marco-j">¿Quienes somos?</a>
+                  <a class="nav-link" href="#">¿Quienes somos?</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="menu-circular">Servicios</a>
+                  <a class="nav-link" href="#">Servicios</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Reseña</a>
@@ -114,51 +114,52 @@
           <div class="card">
             <img src="..." class="card-img-top" alt="Visión">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Algún texto de ejemplo rápido para construir sobre el título de la tarjeta y conformar la mayor parte del contenido de la tarjeta.</p>
             </div>
           </div>
 
           <div class="card">
             <img src="..." class="card-img-top" alt="Objetivos">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Algún texto de ejemplo rápido para construir sobre el título de la tarjeta y conformar la mayor parte del contenido de la tarjeta.</p>
             </div>
           </div>
         </div>
     </div>
         <!--Fin card quienes somos--->
 
-      <!--menu de servicios-->
-      <div class="menu-circular">
-        <iframe width="500" height="400" src="menu-circular.html" scrolling="no" frameborder="no"></iframe>
+      <!--menu de servicios -->
+      <div class="container-fluid">
+         <iframe width="500" height="400" src="menu-circular.html" scrolling="no" frameborder="no"></iframe>
       </div>
       <!--fin menu de servicios-->
 
-        <!--Formulario de contacto-->
-        <div class="col-md-8">
+      <!--Formulario de contacto-->
+      <div class="cotainer">
+        <div class="col-md-6">
         <form class="needs-validation" novalidate>
             <div class="form-row">
-              <div class="col-md-8">
+              <div class="col-md-6">
                 <label for="validationCustom01"></label>
                 <input type="text" class="form-control" id="validationCustom01" value="Nombre" required>
                 <div class="valid-feedback">
-                  Looks good!
+                  Se ve bien!
                 </div>
               </div>
-              <div class="col-md-8 ">
+              <div class="col-md-6 ">
                 <label for="validationCustom02"></label>
                 <input type="text" class="form-control" id="validationCustom02" value="Correo Eléctronico" required>
                 <div class="valid-feedback">
-                  Looks good!
+                  Se ve bien!
                 </div>
               </div>
             </div>
             <div class="form-row">
-              <div class="col-md-8">
+              <div class="col-md-6">
                 <label for="validationCustom03"></label>
                 <input type="text" class="form-control" id="validationCustom03" value="En que podemos ayudarte" required>
                 <div class="invalid-feedback">
-                  Please provide a valid city.
+                  Porfavor proporcione una ciudad valida.
                 </div>
               </div>
             </div>
@@ -169,7 +170,7 @@
                   Acepto el aviso de privacidad
                 </label>
                 <div class="invalid-feedback">
-                  You must agree before submitting.
+                  Debe aceptar antes de enviar.
                 </div>
               </div>
             </div>
@@ -197,7 +198,8 @@
           })();
           </script>
         </div>
-        <!--Termina formaularo de contacto-->
+      </div>
+      <!--Termina formaularo de contacto-->
 
    
 

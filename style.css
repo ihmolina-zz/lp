@@ -2,8 +2,6 @@ div.navbar a{
     font-size: 1em;
 }
 
-
-
 div.row{
     margin-right: 0px;
  }
@@ -26,6 +24,12 @@ div.marco-j {
     padding: 1em;
 }
 
-div.menu-circular {
-    margin-right: auto;
+div.menu-circulo iframe{
+    align-content: center;
+
+}
+
+div needs-validation {
+    width: auto;
+    align-content: center;
 }
