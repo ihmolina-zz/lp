@@ -19,8 +19,14 @@ div[class^='col-']{
     height: 20px;   
 }
 
+div.marco-white {
+    background-color:rgba(255, 255, 255, 0.651);
+    padding: 1em;
+}
+
+
 div.marco-j {
-    background-color:#eee;
+    background-color:rgba(34, 33, 33, 0.651);
     padding: 1em;
 }
 
@@ -32,4 +38,22 @@ div.menu-circulo iframe{
 div needs-validation {
     width: auto;
     align-content: center;
+
 }
+
+div.pieHizquierdo p{
+ font-size: small;   
+}
+
+
+div.pieDerecho p{
+    font: bolder;
+    font-size: small;   
+   }
+
+div pie {
+    color: #eee;
+    font-size: x-small;
+}
+
+

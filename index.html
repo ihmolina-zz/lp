@@ -63,7 +63,7 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/bar-1.jpg" class="d-block w-100" alt="...">
+              <img src="images/bar-1.jpg" class="d-blok w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -101,7 +101,7 @@
         </div>
         fin crear espacio-->
 
-        <!--card quienes somos--->
+      <!--card quienes somos--->
       <div class="marco-j">
         <div class="card-deck">
         <div class="card">
@@ -129,12 +129,55 @@
         <!--Fin card quienes somos--->
 
       <!--menu de servicios -->
+    
+      <div class="container embed-responsive">
+        <iframe width="400" height="400" src="menu-circular.html" scrolling="no" frameborder="no"></iframe>
       <div class="container-fluid">
          <iframe width="500" height="400" src="menu-circular.html" scrolling="no" frameborder="no"></iframe>
       </div>
+      </div>
+     
       <!--fin menu de servicios-->
 
       <!--Formulario de contacto-->
+      <div class="marco-j">
+        <div class="cotainer">
+          <div class="col-md-6">
+          <form class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-6">
+                  <label for="validationCustom01"></label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Nombre" required>
+                  <div class="valid-feedback">
+                    Se ve bien!
+                  </div>
+                </div>
+                <div class="col-md-6 ">
+                  <label for="validationCustom02"></label>
+                  <input type="text" class="form-control" id="validationCustom02" value="Correo Eléctronico" required>
+                  <div class="valid-feedback">
+                    Se ve bien!
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6">
+                  <label for="validationCustom03"></label>
+                  <input type="text" class="form-control" id="validationCustom03" value="En que podemos ayudarte" required>
+                  <div class="invalid-feedback">
+                    Porfavor proporcione una ciudad valida.
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Acepto el aviso de privacidad
+                  </label>
+                  <div class="invalid-feedback">
+                    Debe aceptar antes de enviar.
+                  </div>
       <div class="cotainer">
         <div class="col-md-6">
         <form class="needs-validation" novalidate>
@@ -173,37 +216,104 @@
                   Debe aceptar antes de enviar.
                 </div>
               </div>
-            </div>
-            <button class="btn btn-primary" type="submit">ENVIAR</button>
-          </form>
-          
-          <script>
-          // Example starter JavaScript for disabling form submissions if there are invalid fields
-          (function() {
-            'use strict';
-            window.addEventListener('load', function() {
-              // Fetch all the forms we want to apply custom Bootstrap validation styles to
-              var forms = document.getElementsByClassName('needs-validation');
-              // Loop over them and prevent submission
-              var validation = Array.prototype.filter.call(forms, function(form) {
-                form.addEventListener('submit', function(event) {
-                  if (form.checkValidity() === false) {
-                    event.preventDefault();
-                    event.stopPropagation();
-                  }
-                  form.classList.add('was-validated');
-                }, false);
-              });
-            }, false);
-          })();
-          </script>
+              <button class="btn btn-primary" type="submit">ENVIAR</button>
+            </form>
+            
+            <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function() {
+              'use strict';
+              window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                  form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                  }, false);
+                });
+              }, false);
+            })();
+            </script>
+          </div>
         </div>
       </div>
       <!--Termina formaularo de contacto-->
 
    
+ <!--Reseña-->
+      
+ <div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!--fin reseña-->
 
+<!--Pie de pagina-->
+<div class="pie bg-dark">
+  <div class="card-deck">
+  <div class="card bg-dark">
+      <img src="..." class="card-img-top" alt="Misión">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+
+    <div class="card bg-dark">
+      <img src="..." class="card-img-top" alt="Visión">
+      <div class="card-body">
+        <p class="card-text">Algún texto de ejemplo rápido para construir sobre el título de la tarjeta y conformar la mayor parte del contenido de la tarjeta.</p>
+      </div>
+    </div>
+
+    <div class="card bg-dark">
+      <img src="..." class="card-img-top" alt="Objetivos">
+      <div class="card-body">
+        <p class="card-text">Algún texto de ejemplo rápido para construir sobre el título de la tarjeta y conformar la mayor parte del contenido de la tarjeta.</p>
+      </div>
+    </div>
+  </div>
+
+<!--fin pie de pagina-->
 
       </div>
 </body>
